@@ -1,9 +1,9 @@
 body {
-    font-family: dm monospace;
-    background-color: rgb(252, 253, 255);
+    font-family: monospace;
+    background-color: rgb(255, 255, 255);
 }
 
-.libre-franklin-<uniquifier> {
+//* .libre-franklin-<uniquifier> {
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
