@@ -8,6 +8,18 @@ html, body {
   margin: 0;
 }
 
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+
+body {
+  display: flex;
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+}
+
 /*body {
   display: flex;
   flex-direction: column;
