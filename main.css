@@ -30,6 +30,17 @@ html, body {
   margin: 0 auto;
 }
 
+.retangle1 {
+  max-width: 60%;   /* or whatever width you want */
+  margin: 0 auto;
+  padding: 20px;       /* optional internal space */
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+
 img {
   max-width: 100%;
   height: auto;
