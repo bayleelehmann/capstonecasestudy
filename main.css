@@ -42,6 +42,19 @@ body {
   text-align: center;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
+  font-size: 16pt;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  font-size: large;
+}
+
+h3 {
+  font-size: medium;
 }
 
 ul, ol {
