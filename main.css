@@ -9,9 +9,15 @@ html, body {
   margin: 0;
 }
 
-.thumbnailimage {
-   max-width: 50%;
+.container {
+  max-width: 1000px;   /* or whatever width you want */
+  margin: 30px auto;   /* top/bottom: 30px, left/right: auto for centering */
+  padding: 20px;       /* optional internal space */
+  box-sizing: border-box;
+
 }
+
+
 
 img {
   max-width: 60%;
@@ -34,6 +40,9 @@ body {
   /*min-height: 100vh;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
+}
+.thumbnailimage {
+   max-width: 50%;
 }
 
 img {
