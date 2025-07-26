@@ -42,12 +42,29 @@ body {
   text-align: center;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
+  font-size: smaller;
 }
 
 ul, ol {
   list-style: none;   /* removes bullets or numbers */
   margin: 0;          /* removes default margin */
   padding: 0;         /* removes default padding */
+}
+
+h1 {
+  font-size: larger;
+}
+
+h2 {
+  font-size: large;
+}
+
+h3 {
+  font-size: medium;
+}
+
+h4 {
+  font-size: small;
 }
 
 /*body {
