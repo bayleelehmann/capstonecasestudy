@@ -11,7 +11,7 @@ html, body {
 
 .container {
   max-width: 1000px;   /* or whatever width you want */
-  margin: 0 auto;
+  margin: 30px auto;   /* top/bottom: 30px, left/right: auto for centering */
   padding: 20px;       /* optional internal space */
   box-sizing: border-box;
   align-items: center;
@@ -27,7 +27,7 @@ html, body {
   text-align: center;
   align-items: center;
   display: block;
-  
+  margin: 0 auto;
 }
 
 img {
@@ -42,9 +42,7 @@ body {
   text-align: center;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
-
 }
-
 
 ul, ol {
   list-style: none;   /* removes bullets or numbers */
