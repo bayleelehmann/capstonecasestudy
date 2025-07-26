@@ -15,10 +15,10 @@ img {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
 }
 
 /*body {
