@@ -3,22 +3,27 @@ html {
   margin: 0 50px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  min-height: 100vh;
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+}
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-body {
-    background-color: rgb(255, 255, 255);
-}
-
-h1 {
-    font-family: "Libre Franklin", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
 
 
 
