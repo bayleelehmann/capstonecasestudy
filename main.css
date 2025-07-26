@@ -18,6 +18,13 @@ html, body {
 
 }
 
+.retangle {
+  max-width: 1000px;   /* or whatever width you want */
+  margin: 30px auto;   /* top/bottom: 30px, left/right: auto for centering */
+  padding: 20px;       /* optional internal space */
+  box-sizing: border-box;
+  align-items: center;
+}
 
 img {
   max-width: 75%;
