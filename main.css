@@ -42,24 +42,9 @@ body {
   text-align: center;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
-  font-size: 12pt;
+
 }
 
-h1 {
-  font-size: xx-large;
-}
-
-h2 {
-  font-size: x-large;
-}
-
-h3 {
-  font-size: large;
-}
-
-h4 {
-  font-size: medium;
-}
 
 ul, ol {
   list-style: none;   /* removes bullets or numbers */
