@@ -14,6 +14,7 @@ html, body {
   margin: 30px auto;   /* top/bottom: 30px, left/right: auto for centering */
   padding: 20px;       /* optional internal space */
   box-sizing: border-box;
+  align-items: center;
 
 }
 
