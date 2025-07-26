@@ -1,43 +1,26 @@
+html {
+  background-color: rgb(255, 255, 255);
+  margin: 0 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
-    font-family: monospace;
     background-color: rgb(255, 255, 255);
 }
 
-Rectangle()
-.foregroundColor(.clear)
-.frame(width: 1440, height: 519)
-.background(Color(red: 0.85, green: 0.85, blue: 0.85))
+h1 {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
 
-.overlay(
-Rectangle()
-.inset(by: 0.5)
-.stroke(.black, lineWidth: 1)
 
-)
-
-Rectangle1()
-.foregroundColor(.clear)
-.frame(width: 1238, height: 555)
-.background(Color(red: 0.85, green: 0.85, blue: 0.85))
-
-.overlay(
-Rectangle()
-.inset(by: 0.5)
-.stroke(.black, lineWidth: 1)
-
-)
-
-Rectangle2()
-.foregroundColor(.clear)
-.frame(width: 525, height: 516.22272)
-.background(Color(red: 0.85, green: 0.85, blue: 0.85))
-
-.overlay(
-Rectangle()
-.inset(by: 0.5)
-.stroke(.black, lineWidth: 1)
-
-)
 
 //* .libre-franklin-<uniquifier> {
     font-family: "Libre Franklin", sans-serif;
