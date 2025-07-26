@@ -42,23 +42,23 @@ body {
   text-align: center;
   font-family: monospace;
   background-color: rgb(255, 255, 255);
-  font-size: 20pt;
+  font-size: 12pt;
 }
 
 h1 {
-  font-size: 68pt;
+  font-size: xx-large;
 }
 
 h2 {
-  font-size: 50pt;
+  font-size: x-large;
 }
 
 h3 {
-  font-size: 38pt;
+  font-size: large;
 }
 
 h4 {
-  font-size: 28pt;
+  font-size: medium;
 }
 
 ul, ol {
