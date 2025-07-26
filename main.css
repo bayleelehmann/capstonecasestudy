@@ -33,6 +33,12 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+ul, ol {
+  list-style: none;   /* removes bullets or numbers */
+  margin: 0;          /* removes default margin */
+  padding: 0;         /* removes default padding */
+}
+
 /*body {
   display: flex;
   flex-direction: column;
